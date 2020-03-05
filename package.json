@@ -1,0 +1,32 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "API simples com ExpressJS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobisonAleixo/API-REST.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Express"
+  ],
+  "author": "Robison Aleixo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobisonAleixo/API-REST/issues"
+  },
+  "homepage": "https://github.com/RobisonAleixo/API-REST#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
